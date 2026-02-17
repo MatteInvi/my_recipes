@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricette</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div id="search-section">
+            <input type="text" name="cerca-ricette" placeholder="Cerca..." id="input-ricerca-ricetta">
+            <button id="btn-ricerca">Cerca</button>
+        </div>
+        <div id="cards-container">
+            <!-- Qui verranno inserite le ricette dinamicamente -->
+        </div>
+    </div>
+
+    <div id="modale-ingredienti">
+        <div id="contenuto-modale">
+            <span id="chiudi-modale-ingredienti">&times;</span>
+            <table id="recipe_table">
+                <thead>
+                    <tr>
+                        <th id="ingrediente-column">Ingrediente</th>
+                        <th id="quantità-column">Quantità</th>
+                    </tr>
+                </thead>
+                <tbody id="contenuto-tabella">
+                    <!-- Qui verranno caricati gli ingradienti dinamicamente -->
+                </tbody>
+
+
+            </table>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
